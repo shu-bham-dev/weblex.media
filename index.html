@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Weblex Media — Revenue-Obsessed Digital Growth Agency</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Instrument+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAV
+═══════════════════════════════════════════ -->
+<nav id="nav">
+  <a class="nav-logo" href="#">
+    <div class="dot"></div>Weblex Media
+  </a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#industries">Industries</a></li>
+    <li><a href="#results">Case Studies</a></li>
+    <li><a href="#ai-sec">AI</a></li>
+    <li><a href="#testimonials">About</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="#results" class="btn btn-ghost">Our Work</a>
+    <a href="#cta" class="btn btn-primary">Free Audit →</a>
+  </div>
+  <div class="hamburger" id="ham"><span></span><span></span><span></span></div>
+</nav>
+
+<div class="mobile-menu" id="mob">
+  <a href="#services"      onclick="closeM()">Services</a>
+  <a href="#industries"    onclick="closeM()">Industries</a>
+  <a href="#results"       onclick="closeM()">Case Studies</a>
+  <a href="#ai-sec"        onclick="closeM()">AI Marketing</a>
+  <a href="#testimonials"  onclick="closeM()">About</a>
+  <a href="#cta" class="btn btn-primary" onclick="closeM()">Get Free Audit →</a>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════ -->
+<section id="hero">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="wrap" style="width:100%;position:relative;z-index:1">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <div class="live-dot"></div>
+          AI-Powered Growth Agency &middot; B2B SaaS & E-Commerce
+        </div>
+        <h1 class="hero-title">
+          We Turn Ad Spend<br/>Into <span class="accent">Predictable</span><br/>Revenue.
+        </h1>
+        <p class="hero-sub">Full-service performance marketing for B2B SaaS, Tech, and E-Commerce brands — driven by AI, obsessed with ROI. India-based. Globally trusted.</p>
+        <div class="hero-ctas">
+          <a href="#cta" class="btn btn-primary">Get a Free Growth Audit →</a>
+          <a href="#results" class="btn btn-ghost">See Our Results</a>
+        </div>
+        <div class="hero-trust">
+          <div class="hero-trust-item">No long-term contracts</div>
+          <div class="hero-trust-item">Results in 30 days</div>
+          <div class="hero-trust-item">Clients in 12+ countries</div>
+        </div>
+      </div>
+      <div class="hero-cards">
+        <div class="hsc">
+          <div class="hsc-lbl">Monthly ROAS — Stackr UK</div>
+          <div class="hsc-val">6.4x</div>
+          <div class="hsc-sub">Google + LinkedIn Campaigns</div>
+          <div class="hsc-badge">↑ from 2.1x baseline</div>
+        </div>
+        <div class="hsc">
+          <div class="hsc-lbl">Cost Per Lead</div>
+          <div class="hsc-val">$18.40</div>
+          <div class="hsc-sub">Meta Ads — SaaS Lead Gen</div>
+          <div class="hsc-badge">↓ 41% vs prior agency</div>
+        </div>
+        <div class="hsc">
+          <div class="hsc-lbl">Revenue Attributed Q4</div>
+          <div class="hsc-val">$1.2M</div>
+          <div class="hsc-sub">E-Commerce — Shopify Brand</div>
+          <div class="hsc-badge">↑ 3.2x ROAS</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span class="t-lbl">Trusted by →</span>
+    <span class="t-brand">Stackr</span><span class="t-sep">·</span>
+    <span class="t-brand">Fendyr</span><span class="t-sep">·</span>
+    <span class="t-brand">Vaulted Nutrition</span><span class="t-sep">·</span>
+    <span class="t-brand">Luminos Pay</span><span class="t-sep">·</span>
+    <span class="t-brand">Briqo Academy</span><span class="t-sep">·</span>
+    <span class="t-brand">Orbia Tech</span><span class="t-sep">·</span>
+    <span class="t-brand">Nexlane</span><span class="t-sep">·</span>
+    <span class="t-brand">Warpfuel</span><span class="t-sep">·</span>
+    <span class="t-brand">Helix Labs</span><span class="t-sep">·</span>
+    <span class="t-brand">Clarix HQ</span><span class="t-sep">·</span>
+    <span class="t-lbl">Trusted by →</span>
+    <span class="t-brand">Stackr</span><span class="t-sep">·</span>
+    <span class="t-brand">Fendyr</span><span class="t-sep">·</span>
+    <span class="t-brand">Vaulted Nutrition</span><span class="t-sep">·</span>
+    <span class="t-brand">Luminos Pay</span><span class="t-sep">·</span>
+    <span class="t-brand">Briqo Academy</span><span class="t-sep">·</span>
+    <span class="t-brand">Orbia Tech</span><span class="t-sep">·</span>
+    <span class="t-brand">Nexlane</span><span class="t-sep">·</span>
+    <span class="t-brand">Warpfuel</span><span class="t-sep">·</span>
+    <span class="t-brand">Helix Labs</span><span class="t-sep">·</span>
+    <span class="t-brand">Clarix HQ</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     STATS
+═══════════════════════════════════════════ -->
+<section id="stats">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-num"><span data-count="280">0</span>M+</span>
+        <div class="stat-label">Revenue Generated for Clients</div>
+      </div>
+      <div class="stat-item reveal d1">
+        <span class="stat-num"><span data-count="850">0</span>+</span>
+        <div class="stat-label">Campaigns Launched</div>
+      </div>
+      <div class="stat-item reveal d2">
+        <span class="stat-num">6.2<span style="font-size:.55em">x</span></span>
+        <div class="stat-label">Average Client ROAS</div>
+      </div>
+      <div class="stat-item reveal d3">
+        <span class="stat-num"><span data-count="12">0</span>+</span>
+        <div class="stat-label">Countries Served</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     SERVICES
+═══════════════════════════════════════════ -->
+<section id="services" class="sec">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="lbl">What We Do</div>
+      <h2>Everything You Need to Grow —<br/>Under One Roof.</h2>
+      <p>From paid acquisition to AI-powered automation, we run the full revenue engine so you don't have to.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc-card reveal">
+        <div class="svc-icon">🎯</div>
+        <h3>Paid Media & Performance</h3>
+        <p>Full-funnel campaigns built to convert, not just click. We manage $50K–$5M in monthly ad spend across Google, Meta, LinkedIn, and Amazon.</p>
+        <div class="tags"><span class="tag">Google Ads</span><span class="tag">Meta Ads</span><span class="tag">LinkedIn</span><span class="tag">Amazon</span></div>
+      </div>
+      <div class="svc-card reveal d1">
+        <div class="svc-icon">📈</div>
+        <h3>SEO & Organic Growth</h3>
+        <p>Technical SEO, content strategy, link acquisition, and AI search optimisation (GEO/AEO). Rank everywhere your buyers search — including ChatGPT and Perplexity.</p>
+        <div class="tags"><span class="tag">Technical SEO</span><span class="tag">Content SEO</span><span class="tag">GEO/AEO</span><span class="tag">Link Building</span></div>
+      </div>
+      <div class="svc-card reveal d2">
+        <div class="svc-icon">🤖</div>
+        <h3>AI-Powered Marketing</h3>
+        <p>Predictive bidding, AI creative testing, automated dashboards, and conversational lead gen bots. Your competitors are still doing this manually.</p>
+        <div class="tags"><span class="tag">AI Bidding</span><span class="tag">Creative Testing</span><span class="tag">Automation</span><span class="tag">Chatbots</span></div>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-icon">⚡</div>
+        <h3>Web & Landing Pages</h3>
+        <p>High-converting landing pages and Webflow/Shopify builds. Speed-optimised, CRO-first, and ready to run traffic on day one.</p>
+        <div class="tags"><span class="tag">Webflow</span><span class="tag">Shopify</span><span class="tag">Landing Pages</span><span class="tag">CRO</span></div>
+      </div>
+      <div class="svc-card reveal d1">
+        <div class="svc-icon">📊</div>
+        <h3>Analytics & Attribution</h3>
+        <p>GA4 setup, multi-touch attribution, and custom Looker Studio dashboards. Know exactly which channel drives revenue — not just traffic.</p>
+        <div class="tags"><span class="tag">GA4</span><span class="tag">Attribution</span><span class="tag">Looker Studio</span><span class="tag">Reporting</span></div>
+      </div>
+      <div class="svc-card reveal d2">
+        <div class="svc-icon">🔬</div>
+        <h3>CRO & Funnel Optimisation</h3>
+        <p>A/B testing, heatmaps, UX audits, and conversion copy. We plug the leaks in your funnel so every dollar works harder.</p>
+        <div class="tags"><span class="tag">A/B Testing</span><span class="tag">Heatmaps</span><span class="tag">UX Audit</span><span class="tag">Copy</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     INDUSTRIES
+═══════════════════════════════════════════ -->
+<section id="industries" class="sec">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="lbl">Industries</div>
+      <h2>We Speak Your<br/>Industry's Language.</h2>
+    </div>
+    <div class="ind-wrap">
+      <div class="ind-tabs">
+        <div class="ind-tab active" onclick="setInd('saas',this)"><div class="idot"></div>B2B SaaS & Tech</div>
+        <div class="ind-tab" onclick="setInd('ecom',this)"><div class="idot"></div>E-Commerce & D2C</div>
+        <div class="ind-tab" onclick="setInd('fin',this)"><div class="idot"></div>Fintech & BFSI</div>
+        <div class="ind-tab" onclick="setInd('ed',this)"><div class="idot"></div>EdTech</div>
+        <div class="ind-tab" onclick="setInd('hlth',this)"><div class="idot"></div>Health & Wellness</div>
+        <div class="ind-tab" onclick="setInd('re',this)"><div class="idot"></div>Real Estate</div>
+      </div>
+      <div>
+        <div class="ind-panel active" id="ip-saas">
+          <span class="ind-ptag">B2B SaaS & Tech</span>
+          <h3>Turn demos into pipeline. Pipeline into revenue.</h3>
+          <p class="desc">We understand SaaS metrics — MRR, churn, SQL vs MQL, CAC:LTV. We build demand gen engines for growth-stage and enterprise SaaS companies in India, UK, and the US.</p>
+          <div class="ind-metrics">
+            <div class="im"><span class="im-val">4.1x</span><div class="im-lbl">Avg. demo volume increase</div></div>
+            <div class="im"><span class="im-val">52%</span><div class="im-lbl">Avg. CAC reduction</div></div>
+            <div class="im"><span class="im-val">90d</span><div class="im-lbl">To pipeline impact</div></div>
+          </div>
+          <div class="challenges">
+            <div class="ch">High CPL from broad-match keywords and untargeted campaigns</div>
+            <div class="ch">Poor attribution — can't tie spend to pipeline or revenue</div>
+            <div class="ch">LinkedIn ABM not set up for the right ICP</div>
+            <div class="ch">No structured creative testing — same 3 ads running for months</div>
+          </div>
+        </div>
+        <div class="ind-panel" id="ip-ecom">
+          <span class="ind-ptag">E-Commerce & D2C</span>
+          <h3>More revenue per rupee. Every single month.</h3>
+          <p class="desc">We specialise in Shopify and WooCommerce brands, running full-funnel Meta, Google Shopping, and Amazon campaigns. Whether you're in India, UK, or the US — we know the platforms cold.</p>
+          <div class="ind-metrics">
+            <div class="im"><span class="im-val">3.2x</span><div class="im-lbl">Avg. ROAS improvement</div></div>
+            <div class="im"><span class="im-val">41%</span><div class="im-lbl">Average CPL reduction</div></div>
+            <div class="im"><span class="im-val">Q4</span><div class="im-lbl">BFCM scaling specialists</div></div>
+          </div>
+          <div class="challenges">
+            <div class="ch">ROAS below 2x despite increasing ad spend</div>
+            <div class="ch">Stale creatives — burning money on the same ads for weeks</div>
+            <div class="ch">Amazon ACOS too high, eating into margins</div>
+            <div class="ch">Too much spend on acquisition, not enough on LTV / retention</div>
+          </div>
+        </div>
+        <div class="ind-panel" id="ip-fin">
+          <span class="ind-ptag">Fintech & BFSI</span>
+          <h3>Compliant campaigns. Aggressive results.</h3>
+          <p class="desc">We understand SEBI/RBI compliance and still run high-performance campaigns. Fintech lead gen and app acquisition at scale — without getting ads disapproved.</p>
+          <div class="ind-metrics">
+            <div class="im"><span class="im-val">$38</span><div class="im-lbl">CPL (down from $120)</div></div>
+            <div class="im"><span class="im-val">3x</span><div class="im-lbl">App install volume</div></div>
+            <div class="im"><span class="im-val">0</span><div class="im-lbl">Compliance violations</div></div>
+          </div>
+          <div class="challenges">
+            <div class="ch">Ads frequently disapproved due to health/financial claim policies</div>
+            <div class="ch">App install cost too high — CAC breaking unit economics</div>
+            <div class="ch">High lead volume, very few actually qualified</div>
+          </div>
+        </div>
+        <div class="ind-panel" id="ip-ed">
+          <span class="ind-ptag">EdTech</span>
+          <h3>Enrolments at scale. CPE that makes sense.</h3>
+          <p class="desc">Online learning platforms, coaching institutes, upskilling apps. We drive course enrolments at defensible cost per enrolment with YouTube, Google, and WhatsApp funnels.</p>
+          <div class="ind-metrics">
+            <div class="im"><span class="im-val">5.8x</span><div class="im-lbl">ROAS on Meta campaigns</div></div>
+            <div class="im"><span class="im-val">12K</span><div class="im-lbl">Enrolments in 45 days</div></div>
+            <div class="im"><span class="im-val">40%</span><div class="im-lbl">Lower CPE vs industry</div></div>
+          </div>
+          <div class="challenges">
+            <div class="ch">High lead volume but poor show-up rate to demos or trials</div>
+            <div class="ch">YouTube campaigns not generating qualified traffic</div>
+            <div class="ch">WhatsApp funnel leaking — leads going cold after opt-in</div>
+          </div>
+        </div>
+        <div class="ind-panel" id="ip-hlth">
+          <span class="ind-ptag">Health & Wellness</span>
+          <h3>Grow without getting flagged.</h3>
+          <p class="desc">Supplements, telehealth, fitness apps, wellness brands. We know Meta and Google health ad policies — and we still drive exceptional ROAS while staying compliant.</p>
+          <div class="ind-metrics">
+            <div class="im"><span class="im-val">4.4x</span><div class="im-lbl">Meta ROAS — supplements</div></div>
+            <div class="im"><span class="im-val">£1.1M</span><div class="im-lbl">Revenue in 6 months</div></div>
+            <div class="im"><span class="im-val">0</span><div class="im-lbl">Ad policy violations</div></div>
+          </div>
+          <div class="challenges">
+            <div class="ch">Health claim ads constantly getting disapproved or restricted</div>
+            <div class="ch">Subscription retention poor — high churn after month one</div>
+            <div class="ch">Amazon ACOS above 25% — profitable scaling not achieved</div>
+          </div>
+        </div>
+        <div class="ind-panel" id="ip-re">
+          <span class="ind-ptag">Real Estate</span>
+          <h3>Quality leads, not just lead volume.</h3>
+          <p class="desc">Residential developers, commercial real estate, and property platforms. We focus on lead quality with CRM integration and lead scoring — because one converted lead changes your economics.</p>
+          <div class="ind-metrics">
+            <div class="im"><span class="im-val">68%</span><div class="im-lbl">Lead quality improvement</div></div>
+            <div class="im"><span class="im-val">₹1.2K</span><div class="im-lbl">Avg CPL (site visits)</div></div>
+            <div class="im"><span class="im-val">24h</span><div class="im-lbl">Lead-to-callback SLA</div></div>
+          </div>
+          <div class="challenges">
+            <div class="ch">High volume of junk leads — wasting sales team time</div>
+            <div class="ch">No lead scoring — treating cold inquiry same as site visitor</div>
+            <div class="ch">Google LSA not set up — missing high-intent local traffic</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CASE STUDIES
+═══════════════════════════════════════════ -->
+<section id="results" class="sec" style="background:var(--ink2)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="lbl">Proof of Work</div>
+      <h2>Numbers Don't Lie.<br/>Ours Never Do.</h2>
+      <p>Real campaigns. Real results. Delivered for brands across India, UK, US, and UAE.</p>
+    </div>
+
+    <!-- Featured -->
+    <div class="cs-featured reveal">
+      <div>
+        <span class="cs-feat-tag">Featured · B2B SaaS · UK</span>
+        <div class="cs-feat-brand">Stackr</div>
+        <p class="cs-feat-desc">UK-based project management SaaS came to us with untargeted LinkedIn campaigns and broad-match Google waste. We rebuilt their demand gen engine with intent-based targeting, ICP-first audiences, and AI bidding. Four months later, their pipeline was unrecognisable.</p>
+        <div class="cs-feat-metrics">
+          <div><span class="cfm-val">4.1x</span><div class="cfm-lbl">Demo volume increase</div></div>
+          <div><span class="cfm-val">52%</span><div class="cfm-lbl">CAC reduction</div></div>
+          <div><span class="cfm-val">$2.3M</span><div class="cfm-lbl">Pipeline generated</div></div>
+        </div>
+        <a href="#cta" class="btn btn-primary">Get Similar Results →</a>
+      </div>
+      <div class="dash-mock">
+        <div class="dash-head">
+          Campaign Dashboard — Stackr
+          <div class="live-badge">Live</div>
+        </div>
+        <div class="mini-chart">
+          <div class="bar" style="height:25%"></div>
+          <div class="bar" style="height:30%"></div>
+          <div class="bar" style="height:28%"></div>
+          <div class="bar" style="height:45%"></div>
+          <div class="bar" style="height:52%"></div>
+          <div class="bar" style="height:58%"></div>
+          <div class="bar" style="height:64%"></div>
+          <div class="bar" style="height:72%"></div>
+          <div class="bar" style="height:80%"></div>
+          <div class="bar hi" style="height:100%"></div>
+        </div>
+        <div class="kpi-row">
+          <div class="kpi"><div class="kpi-val">$18.40</div><div class="kpi-lbl">Cost Per Lead</div></div>
+          <div class="kpi"><div class="kpi-val">6.4x</div><div class="kpi-lbl">ROAS</div></div>
+          <div class="kpi"><div class="kpi-val">↑94%</div><div class="kpi-lbl">Conv. Rate</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grid -->
+    <div class="cs-grid">
+      <div class="cs-card reveal">
+        <div class="cs-top">
+          <span class="cs-ind ecom">E-Commerce</span>
+          <span class="cs-reg">US · Shopify</span>
+        </div>
+        <div class="cs-brand">Fendyr</div>
+        <p class="cs-res">Sustainable apparel brand with fragmented paid media. We rebuilt full-funnel from scratch — Q4 became their best quarter ever.</p>
+        <div class="cs-nums">
+          <div class="cs-num"><span class="cs-nv">3.2x</span><div class="cs-nl">ROAS</div></div>
+          <div class="cs-num"><span class="cs-nv">$840K</span><div class="cs-nl">90d Revenue</div></div>
+          <div class="cs-num"><span class="cs-nv">41%</span><div class="cs-nl">CPL Drop</div></div>
+        </div>
+      </div>
+      <div class="cs-card reveal d1">
+        <div class="cs-top">
+          <span class="cs-ind fin">Fintech</span>
+          <span class="cs-reg">UAE · App</span>
+        </div>
+        <div class="cs-brand">Luminos Pay</div>
+        <p class="cs-res">UAE payments startup scaling app installs. Rebuilt Google + Meta strategy with compliant creative and lookalike audiences.</p>
+        <div class="cs-nums">
+          <div class="cs-num"><span class="cs-nv">3x</span><div class="cs-nl">Installs</div></div>
+          <div class="cs-num"><span class="cs-nv">$38</span><div class="cs-nl">CPL (from $120)</div></div>
+          <div class="cs-num"><span class="cs-nv">68%</span><div class="cs-nl">CPL Drop</div></div>
+        </div>
+      </div>
+      <div class="cs-card reveal d2">
+        <div class="cs-top">
+          <span class="cs-ind ecom">E-Commerce</span>
+          <span class="cs-reg">UK · Supplements</span>
+        </div>
+        <div class="cs-brand">Vaulted Nutrition</div>
+        <p class="cs-res">UK supplements D2C with high ACOS and unstable Meta results. AI creative testing framework reduced waste and scaled profitable channels.</p>
+        <div class="cs-nums">
+          <div class="cs-num"><span class="cs-nv">4.4x</span><div class="cs-nl">Meta ROAS</div></div>
+          <div class="cs-num"><span class="cs-nv">£1.1M</span><div class="cs-nl">Revenue</div></div>
+          <div class="cs-num"><span class="cs-nv">9%</span><div class="cs-nl">Amazon ACOS</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     AI SECTION
+═══════════════════════════════════════════ -->
+<section id="ai-sec" class="sec">
+  <div class="wrap">
+    <div class="ai-layout">
+      <div class="reveal">
+        <div class="lbl">AI-Powered Performance</div>
+        <h2>Your Competitors Are Still Doing This Manually.</h2>
+        <p style="font-size:clamp(14px,1.6vw,16px);margin-top:14px;margin-bottom:36px">We've embedded AI into every layer of our operation — from bid management to creative testing to real-time reporting. Faster results. Less waste. Higher ROAS.</p>
+        <a href="#cta" class="btn btn-primary">See Our AI Stack →</a>
+      </div>
+      <div class="ai-blocks reveal d1">
+        <div class="ai-block">
+          <div class="ai-bhead"><div class="ai-bicon">⚡</div><div class="ai-btitle">Predictive Bid Optimisation</div><div class="ai-bnum">400+</div></div>
+          <p>Our AI adjusts bids 400+ times per day — reacting to auction dynamics, time signals, and conversion probability in real-time. Average ROAS improvement: 28%.</p>
+        </div>
+        <div class="ai-block">
+          <div class="ai-bhead"><div class="ai-bicon">🎨</div><div class="ai-btitle">AI Creative Testing Engine</div><div class="ai-bnum">72h</div></div>
+          <p>We test 20–50 creative variants simultaneously. Machine learning identifies winning combinations in 72 hours — not 3 weeks. Your creative never goes stale.</p>
+        </div>
+        <div class="ai-block">
+          <div class="ai-bhead"><div class="ai-bicon">🔔</div><div class="ai-btitle">Anomaly Detection & Alerts</div><div class="ai-bnum"><1h</div></div>
+          <p>Your live dashboard flags performance anomalies before they become budget problems. Know within hours — not at the end of the month when damage is done.</p>
+        </div>
+        <div class="ai-block">
+          <div class="ai-bhead"><div class="ai-bicon">🌐</div><div class="ai-btitle">AI Search Optimisation (GEO/AEO)</div><div class="ai-bnum">New</div></div>
+          <p>Get your brand cited in ChatGPT, Perplexity, and AI Overviews. Generative Engine Optimisation is the new SEO — and we're already ahead.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     PROCESS
+═══════════════════════════════════════════ -->
+<section id="process" class="sec" style="background:var(--ink2)">
+  <div class="wrap">
+    <div class="sec-head center reveal" style="max-width:580px;margin-left:auto;margin-right:auto">
+      <div class="lbl">Our Process</div>
+      <h2>From Brief to Revenue in 30 Days.</h2>
+      <p>A clear 4-step process. No black boxes. No waiting for monthly PDFs.</p>
+    </div>
+    <div class="proc-grid">
+      <div class="proc-step reveal">
+        <div class="proc-num">01</div>
+        <div class="proc-icon">🔍</div>
+        <div class="proc-week">Week 1</div>
+        <h3>Deep Audit & Discovery</h3>
+        <p>We tear apart your existing accounts, analytics, and funnel. We find where money is leaking before we spend another rupee.</p>
+      </div>
+      <div class="proc-step reveal d1">
+        <div class="proc-num">02</div>
+        <div class="proc-icon">🗺️</div>
+        <div class="proc-week">Week 1–2</div>
+        <h3>Strategy & AI Roadmap</h3>
+        <p>Channel strategy, audience architecture, and 90-day roadmap tailored to your CAC targets. AI modelling informs every budget decision.</p>
+      </div>
+      <div class="proc-step reveal d2">
+        <div class="proc-num">03</div>
+        <div class="proc-icon">🚀</div>
+        <div class="proc-week">Week 2–4</div>
+        <h3>Launch & Test</h3>
+        <p>Campaigns go live with structured creative testing. We run 15–30 variants in week one to find winning combinations fast.</p>
+      </div>
+      <div class="proc-step reveal d3">
+        <div class="proc-num">04</div>
+        <div class="proc-icon">📡</div>
+        <div class="proc-week">Month 2+</div>
+        <h3>Scale & Optimise</h3>
+        <p>What wins gets more budget. What doesn't gets cut. AI bidding recalibrates daily. You get a live dashboard — not a monthly PDF.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     TESTIMONIALS
+═══════════════════════════════════════════ -->
+<section id="testimonials" class="sec">
+  <div class="wrap">
+    <div class="sec-head center reveal" style="max-width:520px;margin-left:auto;margin-right:auto">
+      <div class="lbl">Client Stories</div>
+      <h2>Don't Take Our Word For It.</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="t-stars">★★★★★</div>
+        <p class="t-quote">"We'd tried three agencies before Weblex Media. None understood SaaS metrics. These guys walked in knowing our ICP, churn rate, and exactly what a demo is worth. In 90 days, our pipeline tripled."</p>
+        <div class="t-author">
+          <div class="t-avatar">JW</div>
+          <div><div class="t-name">James Whitfield</div><div class="t-role">VP Marketing · Stackr, UK</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal d1">
+        <div class="t-stars">★★★★★</div>
+        <p class="t-quote">"ROAS went from 1.8x to 4.4x in 8 weeks. The creative testing framework alone is worth the retainer. They don't guess — they test everything systematically."</p>
+        <div class="t-author">
+          <div class="t-avatar">SC</div>
+          <div><div class="t-name">Sarah Chen</div><div class="t-role">Growth Lead · Vaulted Nutrition, UK</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal d2">
+        <div class="t-stars">★★★★★</div>
+        <p class="t-quote">"They're operating at a level I didn't expect from an offshore team. Responsive, sharp, genuinely care about results. Feels like an in-house growth team."</p>
+        <div class="t-author">
+          <div class="t-avatar">RA</div>
+          <div><div class="t-name">Ravi Anand</div><div class="t-role">Founder · Luminos Pay, UAE</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     TRUST BADGES
+═══════════════════════════════════════════ -->
+<section id="trust">
+  <div class="wrap">
+    <div class="trust-row">
+      <div class="trust-badge">🥇 Google Premier Partner</div>
+      <div class="trust-badge">📘 Meta Business Partner</div>
+      <div class="trust-badge">🛍️ Shopify Partner</div>
+      <div class="trust-badge">🌐 Webflow Enterprise</div>
+      <div class="trust-badge">⭐ Clutch Top Agency 2024</div>
+      <div class="trust-badge">💰 ₹50Cr+ Ad Spend Managed</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CTA
+═══════════════════════════════════════════ -->
+<section id="cta" class="sec">
+  <div class="wrap">
+    <div class="cta-box reveal">
+      <div class="lbl" style="margin:0 auto 20px">Free Growth Audit</div>
+      <h2>Ready to Make Every<br/>Ad Rupee Work Harder?</h2>
+      <p>Get a free 30-minute audit. No pitch deck. No fluff. Just specific, actionable findings for your accounts.</p>
+      <div class="cta-form">
+        <input type="email" class="cta-input" placeholder="Your work email"/>
+        <input type="text"  class="cta-input" placeholder="Company / Website"/>
+      </div>
+      <div class="cta-btns">
+        <a href="mailto:hello@weblexmedia.com" class="btn btn-primary" style="font-size:16px;padding:15px 32px">Get My Free Audit →</a>
+      </div>
+      <div class="cta-note">Responded within 1 business day &middot; No spam &middot; No obligation</div>
+      <div class="cta-perks">
+        <div class="cta-perk"><span>✓</span> Account structure audit (worth ₹25,000)</div>
+        <div class="cta-perk"><span>✓</span> Top 3 quick wins identified</div>
+        <div class="cta-perk"><span>✓</span> Competitive landscape snapshot</div>
+        <div class="cta-perk"><span>✓</span> 30-day growth roadmap</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo"><div class="dot"></div>Weblex Media</div>
+        <p>Revenue-obsessed digital growth agency. B2B SaaS, E-Commerce, and Tech brands — India-based, globally trusted.</p>
+        <div class="footer-socials">
+          <div class="soc">in</div>
+          <div class="soc">𝕏</div>
+          <div class="soc">▶</div>
+          <div class="soc">ig</div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <div class="f-links">
+          <a href="#">Paid Media & Performance</a>
+          <a href="#">SEO & Organic Growth</a>
+          <a href="#">AI-Powered Marketing</a>
+          <a href="#">Web & Landing Pages</a>
+          <a href="#">Analytics & Attribution</a>
+          <a href="#">CRO & Funnel Optimisation</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Industries</h4>
+        <div class="f-links">
+          <a href="#">B2B SaaS & Tech</a>
+          <a href="#">E-Commerce & D2C</a>
+          <a href="#">Fintech & BFSI</a>
+          <a href="#">EdTech</a>
+          <a href="#">Health & Wellness</a>
+          <a href="#">Real Estate</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <div class="f-links">
+          <a href="#">About Us</a>
+          <a href="#">Case Studies</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+          <a href="#cta" style="color:var(--neon)">Book a Call ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Weblex Media. All rights reserved.</p>
+      <div style="display:flex;gap:18px">
+        <a href="#" style="font-size:12px;color:var(--text-3)">Privacy Policy</a>
+        <a href="#" style="font-size:12px;color:var(--text-3)">Terms of Service</a>
+      </div>
+      <div class="footer-geo">India · UK · US · UAE · Australia</div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
